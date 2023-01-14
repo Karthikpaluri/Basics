@@ -11,7 +11,8 @@ ContentName: print-statement
 * Comments are free text, Any text that is ignored by the compiler,
 * Comments are useful to document code and add notes.
 * Python supports **SINGLE LINE COMMENTS** and **MULTILINE COMMENTS**
-```
+
+```python
 # This is a single line comment, Any text followed by a pound or hash symbol "#"
 """
 This
@@ -19,7 +20,7 @@ is a multiline
 comment
 """
 # Any text between TWO LINEs of THREE DOUBLE QUOTES is a multiline comment
-```
+```python
 
 
 ### Print Statement variations
@@ -45,7 +46,7 @@ print('Printing a single quote \'');
 
 ### Print "C language" style
 
-```
+```python
 # Printing using "C language" style
 print('print a double %5.3f' % (1000.23232))
 #OUTPUT: print a double 1000.232
@@ -55,7 +56,7 @@ strVal = 'tinitiate.com'
 intval = 100
 print("String= %s Integer= %i" % (strVal, intval))
 #OUTPUT String= tinitiate.com Integer= 100
-```
+```python
 
 
 ### Print statement Using the string.format
@@ -68,7 +69,7 @@ print("String= %s Integer= %i" % (strVal, intval))
 * The order of the data can also be in the key-values of the
 * str.format(key1='value1',key2='value2')
 * Sample print {key1} {key2} will be replaced with value1 value2
-```
+```python
 print('Welcome to {} training of {} language'.format('tinitiate.com', 'python'));
 #OUTPUT:  Welcome to tinitiate.com training of python language
 
@@ -84,12 +85,12 @@ print('{siteName} teaches {LanguageName}.'.format(siteName='tinitiate.com', Lang
 #Positional and key-value arguments can be arbitrarily combined:
 print('The site {0} teaches {LanguageName}'.format('tinitiate.com', LanguageName='Python'))
 #OUTPUT: The site tinitiate.com teaches Python
-```
+```python
 
 
 ### Printing variables
 
-```
+```python
 #declaring variables for printing
 var_integer  = 1                # An integer type variable
 var_float    = 10.44            # A float type variable
@@ -97,32 +98,32 @@ var_string   = "tinitiate.com"  # A string type variable
 
 print(var_integer, var_float, var_string)
 #OUTPUT: 1 10.44 tinitiate.com
-```
+```python
 
 
 ### Printing a string multiple times, using the "*" operator
 
-```
+```python
 print ("hello " * 3)
 # OUTPUT: hello hello hello 
-```
+```python
 
 
 ###  printing new line character
 
-```
+```python
 print("line1" + '\n' + "line2")
 # OUTPUT: line1
 #         line2  
-```
+```python
 
 
 ### Print UNICODE and ASCII(raw) strings
 
-```
+```python
 # Print ASCII using print r<string>
 print(r'This is a ASCII string, Has no special characters')
 
 # Print UNICODE using print u<string>
 print(u'This is beta (ß), and Has special characters')
-```
+```python
