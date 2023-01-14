@@ -7,7 +7,8 @@ Author: Venkata Bhattaram / tinitiate.com
 ContentName: print-statement
 ---
 
- Print Statement and Comments in Python
+
+### Print Statement and Comments in Python
 * Comments are free text, Any text that is ignored by the compiler,
 * Comments are useful to document code and add notes.
 * Python supports **SINGLE LINE COMMENTS** and **MULTILINE COMMENTS**
