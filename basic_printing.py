@@ -100,7 +100,7 @@ print(var_integer, var_float, var_string)
 ### Printing a string multiple times, using the "*" operator
 ```
 print ("hello " * 3)
-# OUTPUT: hello hello hello 
+### OUTPUT: hello hello hello 
 ```
 
 
@@ -112,11 +112,11 @@ print("line1" + '\n' + "line2")
 ```
 
 
-## Print UNICODE and ASCII(raw) strings
+### Print UNICODE and ASCII(raw) strings
 ```
-# Print ASCII using print r<string>
+### Print ASCII using print r<string>
 print(r'This is a ASCII string, Has no special characters')
 
-# Print UNICODE using print u<string>
+### Print UNICODE using print u<string>
 print(u'This is beta (ß), and Has special characters')
 ```
