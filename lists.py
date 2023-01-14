@@ -32,10 +32,14 @@ MyList = []
 
 # Adding elements to an empty list
 # APPEND adds a Single Element
+MyNumbersList = [1, 100, 9, 99]
+MyStringList  = ["A", 'b', 'Hello', "This"]
 MyList.append(1)
 print(MyList)
 
 # EXTEND adds multiple Elements
+MyNumbersList = [1, 100, 9, 99]
+MyStringList  = ["A", 'b', 'Hello', "This"]
 MyList.extend([1,2,3,4])
 print(MyList)
 
@@ -49,6 +53,7 @@ print (CompoundList)
 # Printing List element by index
 # Index starts from 0 to .. n
 # The following prints the first element of the List
+CompoundList = [1, 100, 'a', 'ZZ']
 print (CompoundList[0])
 ```python
 
@@ -68,29 +73,35 @@ print('Elements of TestList: ', TestList) # OUTPUT: Elements of TestList: [1, 2]
 
 # Add element in the start to a list
 # ----------------------------------
+TestList = [1, 2, 3, 4]
 TestList.insert(0,99)
 print(TestList)
 
 
 # Add element in the end to a list
 # --------------------------------
+TestList = [1, 2, 3, 4]
 TestList.append(10)
 print(TestList)
 
 
 # Modify elements in a list, using the position index of the element
 # ------------------------------------------------------------------
+TestList = [1, 2, 3, 4]
 TestList[1] = 100
 
 
 # This changes the SECOND element [ index(1) ] of the list from 2 to 100
 # -----------------------------------------------------------------------
+TestList = [1, 2, 3, 4]
 print('Elements of TestList: ', TestList) 
 # OUTPUT: Elements of TestList:  [1, 100, 3, 4]
 
 
 # Removing elements from a list
 # -----------------------------
+TestList = [1, 2, 3, 4]
+TestList[1] = 100
 del TestList[1] # This removed the SECOND element [ index(1) ] of the list: 100
 print('Elements of TestList: ', TestList) # OUTPUT: Elements of TestList:  [1, 3, 4]
 
@@ -107,10 +118,12 @@ print('Slicing a list using ":" operator ' ,masterList[1:5])
 
 
 # 2. Print for a index to end of string
+masterList = [1, 2, 3, 4, 5, 6]
 print('Print masterList elements from index 2 (position(3) to end of string ', masterList[2:]);
 
 
 # 3. Update elements in a list for a given range
+masterList = [1, 2, 3, 4, 5, 6]
 masterList [1:4] = ['New1', 'New2', 'New3']
 print('Updated masterList: ' ,masterList)
 ```python
@@ -125,9 +138,11 @@ print(ListOps*3) # OUTPUT: [1, 2, 1, 2, 1, 2]
 
 # Concatenation, adding another list to the existing list,
 # in this case the same list
+ListOps = [1, 2]
 print(ListOps + ListOps) # OUTPUT: [1, 2, 1, 2]
 
 # Checking if an element is present or not, Using "in" operator
+ListOps = [1, 2]
 print ('Does element "2" exists in list is ListOps? ', 2 in ListOps) # OUTPUT: True
 
 # Compare lists
@@ -154,24 +169,28 @@ print(len(newList))   # OUTPUT: 5
 print(len([1, 2, 3])) # OUTPUT: 3
 
 # get Min and Max element in the list
+newList = [3, 2, 5, 1, 4, 4]
 print(min(newList))  # OUTPUT: 1
 print(max(newList))  # OUTPUT: 5
 print(sum(newList))  # OUTPUT: 19
 
 # Sort a list
 # -----------
+newList = [3, 2, 5, 1, 4, 4]
 newList.sort()
 print(newList)  # OUTPUT: [1, 2, 3, 4, 4, 5]
 
 
 # Count the occurrences on the passed element
 # -------------------------------------------
+newList = [3, 2, 5, 1, 4, 4]
 print(newList.count(4)) # OUTPUT: 2
 
 
 # INSERT element before specified index
 # -------------------------------------
 # usage list.insert(INDEX-VALUE, newElement)
+newList = [3, 2, 5, 1, 4, 4]
 newList.insert(1, 'A')
 print(newList) # OUTPUT: [1, 'A', 2, 3, 4, 4, 5]
 
@@ -179,12 +198,14 @@ print(newList) # OUTPUT: [1, 'A', 2, 3, 4, 4, 5]
 # Removes the first occurrence of the specified element
 # -----------------------------------------------------
 # Throws error if element not found
+newList = [3, 2, 5, 1, 4, 4]
 newList.remove(4);
 print(newList) # OUTPUT: [1, 'A', 2, 3, 4, 5]
 
 
 # Reverses the LIST
 # -----------------
+newList = [3, 2, 5, 1, 4, 4]
 newList.reverse()
 print(newList) # OUTPUT: [5, 4, 3, 2, 'A', 1]
 
@@ -192,9 +213,11 @@ print(newList) # OUTPUT: [5, 4, 3, 2, 'A', 1]
 # POP an element out of the list
 # ------------------------------
 # removes the first or the last element in the list
+newList = [3, 2, 5, 1, 4, 4]
 newList.pop()
 print(newList) # OUTPUT: [5, 4, 3, 2, 'A']
 
+newList = [3, 2, 5, 1, 4, 4]
 newList.pop(0)
 print(newList) # OUTPUT: [4, 3, 2, 'A']
 
@@ -202,6 +225,7 @@ print(newList) # OUTPUT: [4, 3, 2, 'A']
 # Clear a list
 # -----------
 # 1. This remeoves all the elements of the list
+newList = [3, 2, 5, 1, 4, 4]
 newList.clear()
 print(newList) # OUTPUT: []
 
