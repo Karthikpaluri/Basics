@@ -25,10 +25,14 @@ set1 = {1,2,3,4}
 print(set1)
 
 # Create a SET "s1" from a LIST of STRING datatype elements
+# Create a new set "S1"
+set1 = {1,2,3,4}
 s1 = set(["USA", "CHINA", "INDIA",])
 print(s1)
 
 # Add an element to a set using the ADD function
+# Create a new set "S1"
+set1 = {1,2,3,4}
 s1.add("RUSSIA")
 print(s1)
 ```python
@@ -60,6 +64,8 @@ S3 = S1.union(S2)
 print(S3)
 
 # Create S3 by Merging set S2 with S1 using | operator
+S1 = {1,2,3}
+S2 = {"A", "B", "C"}
 S3 = S1 | S2
 print(S3)
 ```python
