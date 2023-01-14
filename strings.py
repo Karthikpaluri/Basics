@@ -49,9 +49,13 @@ var_test_string = "Python is cool"
 print('First character of variable var_test_string: ', var_test_string[0]);
 
 # Index of the last character is -1
+# Using python strings as STRING ARRAYs
+var_test_string = "Python is cool"
 print('Last character of variable var_test_string: ',var_test_string[-1]);
 
 # Print forth character from the end
+# Using python strings as STRING ARRAYs
+var_test_string = "Python is cool"
 print('Fourth character from the end of variable var_test_string: '
        ,var_test_string[-4]); 
 ```python
@@ -65,17 +69,21 @@ var_test_string = "Python is cool"
 print(var_test_string[6:])
 
 # prints string from specified index position to end of string
+var_test_string = "Python is cool"
 print(var_test_string[-4:])
 
 # prints a part of the string between the specified index position
+var_test_string = "Python is cool"
 print(var_test_string[4:10])
 
 # OUT oF range indexes
 # when specifing indexes that dont exist is a string
 # single index usage fails
+var_test_string = "Python is cool"
 var_my_string  = "four"
 # print(var_my_string[5]) # this is raise an error
 # Slicing will not raise error, rather will not print anything 
+var_test_string = "Python is cool"
 print(var_my_string[5:7]) # Doesnt print anything 
 ```python
 
@@ -89,15 +97,23 @@ var_string_case_test = "learn PYTHON"
 print(var_string_case_test.upper()) # OUTPUT:  LEARN PYTHON
 
 # lower case conversion
+# Testing String
+var_string_case_test = "learn PYTHON"
 print(var_string_case_test.lower()) # OUTPUT:  learn python
 
 # title case conversion
+# Testing String
+var_string_case_test = "learn PYTHON"
 print(var_string_case_test.title()) # OUTPUT:  Learn Python
 
 # swap case conversion, swaps upper to lower and vice versa
+# Testing String
+var_string_case_test = "learn PYTHON"
 print(var_string_case_test.swapcase())  # OUTPUT:  LEARN python
 
 # capitalize case conversion, UPPERs the first letter of the string
+# Testing String
+var_string_case_test = "learn PYTHON"
 print(var_string_case_test.capitalize())  # OUTPUT:  Learn python
 ```python
 
