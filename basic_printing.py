@@ -12,6 +12,7 @@ ContentName: print-statement
 * Comments are free text, Any text that is ignored by the compiler,
 * Comments are useful to document code and add notes.
 * Python supports **SINGLE LINE COMMENTS** and **MULTILINE COMMENTS**
+
 ```
 # This is a single line comment, Any text followed by a pound or hash symbol "#"
 """
@@ -40,10 +41,12 @@ print('Welcome to tinitiate.com' + 'python turorials "Appended"');
 # print a single quote, usin esacpe character "\" [backslash]
 print('Printing a single quote \'');
 #OUTPUT: Printing a single quote '
+
 ```
 
 
 ### Print "C language" style
+
 ```
 # Printing using "C language" style
 print('print a double %5.3f' % (1000.23232))
@@ -54,6 +57,7 @@ strVal = 'tinitiate.com'
 intval = 100
 print("String= %s Integer= %i" % (strVal, intval))
 #OUTPUT String= tinitiate.com Integer= 100
+
 ```
 
 
@@ -66,6 +70,7 @@ print("String= %s Integer= %i" % (strVal, intval))
 * The order of the data can also be in the key-values of the
 * str.format(key1='value1',key2='value2')
 * Sample print {key1} {key2} will be replaced with value1 value2
+
 ```
 print('Welcome to {} training of {} language'.format('tinitiate.com', 'python'));
 #OUTPUT:  Welcome to tinitiate.com training of python language
