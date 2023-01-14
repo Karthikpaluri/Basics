@@ -24,7 +24,7 @@ comment
 
 ### Print Statement variations
 
-```
+```python
 # Simple print statement
 print('Welcome to tinitiate.com python turorials');
 #OUTPUT: Welcome to tinitiate.com python turorials
@@ -40,7 +40,7 @@ print('Welcome to tinitiate.com' + 'python turorials "Appended"');
 # print a single quote, usin esacpe character "\" [backslash]
 print('Printing a single quote \'');
 #OUTPUT: Printing a single quote '
-```
+```python
 
 
 ### Print "C language" style
