@@ -7,7 +7,7 @@ Author: Venkata Bhattaram / tinitiate.com
 ContentName: print-statement
 ---
 
-# Print Statement and Comments in Python
+ Print Statement and Comments in Python
 * Comments are free text, Any text that is ignored by the compiler,
 * Comments are useful to document code and add notes.
 * Python supports **SINGLE LINE COMMENTS** and **MULTILINE COMMENTS**
@@ -22,7 +22,7 @@ comment
 ```
 
 
-### Print Statement variations
+## Print Statement variations
 ```
 # Simple print statement
 print('Welcome to tinitiate.com python turorials');
@@ -42,7 +42,7 @@ print('Printing a single quote \'');
 ```
 
 
-### Print "C language" style
+## Print "C language" style
 ```
 # Printing using "C language" style
 print('print a double %5.3f' % (1000.23232))
@@ -56,7 +56,7 @@ print("String= %s Integer= %i" % (strVal, intval))
 ```
 
 
-### Print statement Using the string.format
+## Print statement Using the string.format
 * The {} brackets and data enclosed within them are called format fields
 * The data is replaced with the objects passed in the str.format() method
 * The order by default is left to right as in {} {} and the str.format(Obj1, Obj2)
@@ -84,7 +84,7 @@ print('The site {0} teaches {LanguageName}'.format('tinitiate.com', LanguageName
 ```
 
 
-### Printing variables
+## Printing variables
 ```
 #declaring variables for printing
 var_integer  = 1                # An integer type variable
@@ -96,14 +96,14 @@ print(var_integer, var_float, var_string)
 ```
 
 
-### Printing a string multiple times, using the "*" operator
+## Printing a string multiple times, using the "*" operator
 ```
 print ("hello " * 3)
 # OUTPUT: hello hello hello 
 ```
 
 
-###  printing new line character
+##  printing new line character
 ```
 print("line1" + '\n' + "line2")
 # OUTPUT: line1
@@ -111,7 +111,7 @@ print("line1" + '\n' + "line2")
 ```
 
 
-### Print UNICODE and ASCII(raw) strings
+## Print UNICODE and ASCII(raw) strings
 ```
 # Print ASCII using print r<string>
 print(r'This is a ASCII string, Has no special characters')
