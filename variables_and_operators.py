@@ -25,6 +25,10 @@ print("variable2 : ", variable2);
 print("variable3 : ", variable3);
 
 # reassign a value to a variable
+# Simple variable creation
+variable1 = 1;          # Integer
+variable2 = "test";     # String
+variable3 = 100.4;      # double value
 variable1 = 4;          # Integer
 print("variable1 reassigned value: ", variable1);
 
@@ -62,19 +66,39 @@ print(A-B)   # OUTPUT: -1
 print(100/3) # OUTPUT: 33.333333333333336
 
 # remainder, mod
+# Test Variables
+A = 1
+B = 2
+C = 3
 print(100%3) # OUTPUT: 1
 
 # power, exponential operator
+# Test Variables
+A = 1
+B = 2
+C = 3
 print(4**2)  # OUTPUT: 16
 
 # Augmented assign
+# Test Variables
+A = 1
+B = 2
+C = 3
 A += 4   # A=A+4
 print(A) # OUTPUT: 5  
 
+# Test Variables
+A = 1
+B = 2
+C = 3
 B *= 4   # B=B*4
 print(B) # OUTPUT: 8
 
 # For strings
+# Test Variables
+A = 1
+B = 2
+C = 3
 S="-hello-"
 S *= 3
 print(S) # OUTPUT: -hello--hello--hello-
